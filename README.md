@@ -1,7 +1,10 @@
 # edge-ai-models
 
-OTA model catalog and model artifacts for the TANUHai Smart Voice Notes Android
+OTA model catalog and model artifacts for the TANUH_AI Smart Voice Notes Android
 demo.
+
+Repository:
+[`UpadhyayJitesh/edge-ai-models`](https://github.com/UpadhyayJitesh/edge-ai-models)
 
 The Android application installs without AI model files. On first setup it
 downloads this repository's `model-manifest.json`, verifies each artifact, and
@@ -93,6 +96,8 @@ operation and future rollback support.
 
 ## Consumer
 
-The models are consumed by the TANUHai repository's `TANUHDemo` Android project.
-Vosk transcribes microphone audio, then MobileBERT analyzes the transcript's
-sentiment. Both inference stages run locally after OTA preparation.
+The models are consumed by the
+[`UpadhyayJitesh/TANUH_AI`](https://github.com/UpadhyayJitesh/TANUH_AI)
+repository's `TANUHDemo` Android project. Vosk transcribes microphone audio,
+then MobileBERT analyzes the transcript's sentiment. Both inference stages run
+locally after OTA preparation.
