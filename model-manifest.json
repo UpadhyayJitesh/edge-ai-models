@@ -3,7 +3,7 @@
   "models": [
     {
       "id": "vosk-small-en-us",
-      "version": "0.16",
+      "version": "0.15",
       "runtime": "vosk",
       "format": "zip",
       "url": "https://raw.githubusercontent.com/UpadhyayJitesh/edge-ai-models/main/releases/download/voice-memo-v1/vosk-model-small-en-us-0.15.zip",
@@ -12,7 +12,7 @@
     },
     {
       "id": "mobilebert-text-classifier",
-      "version": "2",
+      "version": "1",
       "runtime": "mediapipe-text",
       "format": "tflite",
       "url": "https://raw.githubusercontent.com/UpadhyayJitesh/edge-ai-models/main/releases/download/voice-memo-v1/mobilebert-text-classifier-v1.tflite",
